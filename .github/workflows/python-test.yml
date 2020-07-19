@@ -1,8 +1,6 @@
 name: Test Python Project
 
-on:
-  release:
-    types: [created]
+on: [push, pull_request]
 
 jobs:
   deploy:
