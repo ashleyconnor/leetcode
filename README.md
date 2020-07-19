@@ -1,5 +1,7 @@
 ### Leetcode Solutions
 
+![Test Python Project](https://github.com/ashleyconnor/leetcode/workflows/Test%20Python%20Project/badge.svg)
+
 These are my Leetcode solutions written in Python.
 
 Structured based on problem number.
