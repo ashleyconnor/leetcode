@@ -1,6 +1,6 @@
 ### Leetcode Solutions
 
-![Test Python Project](https://github.com/ashleyconnor/leetcode/workflows/Test%20Python%20Project/badge.svg)
+![Leetcode](https://github.com/ashleyconnor/leetcode/workflows/Leetcode/badge.svg)
 
 These are my Leetcode solutions written in Python.
 
