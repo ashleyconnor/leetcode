@@ -10,9 +10,9 @@ Install `poetry` via `pip install poetry`.
 
 Next run `poetry install`.
 
-To run tests run `poetry run pytest lib`.
+To run tests run `poetry run pytest src/`.
 
-Format with `poetry run black lib`.
+Format with `poetry run black src/`.
 
 ### Problems
 
