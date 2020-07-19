@@ -20,7 +20,7 @@ jobs:
         poetry install
     - name: Check formatting
       run: |
-        poetry run black lib/**/*.py --check
+        poetry run black src/**/*.py --check
     - name: Run unit tests
       run: |
-        poetry run pytest lib/
+        poetry run pytest src/
