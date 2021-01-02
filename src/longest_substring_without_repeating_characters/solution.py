@@ -1,7 +1,7 @@
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
-        max_substring = ''
-        substring = ''
+        max_substring = ""
+        substring = ""
         max_substring_index = index = 0
 
         while index < len(s):
