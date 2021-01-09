@@ -1,6 +1,6 @@
 # Notes
 
-This one was pretty difficult. I ended up on a wild goose chase that resulted in the following erronuous code.
+This one was pretty difficult. I ended up on a wild goose-chase that resulted in the following erroneous code.
 
 ```python
 class Solution:
@@ -51,11 +51,15 @@ class Solution:
 
 I was clearly overthinking the problem with the actual solution resulting in much simpler code.
 
-The solution is to effectively find the largest height to both the left and the right of each height in the list.
+The solution is to effectively find the largest height to both the left and the right of each height in the list taking the
+min value of this and then subtracting the value of the current height. This value is added to the rainwater total and returned.s
 
-In a more naive solution this is done for each height resulting in a O(n^2) time complexity.
+In a more naive solution left/right max height is calculated for each height resulting in a O(n^2) time complexity.
 
 The secret to make this solution linear is to simply precalculate the max height to the left and right for each node in a single
-pass. This allows us to simply reference the max left and right heights in a single pass through the initial list.
+pass. The result is three lists - the original, a max left list and a max right list.
 
-Storing this information is not free though and so the space complexity increases to O(n) but the time complexity is reduced to O(3n) or O(n).
+This allows us to simply reference the max left and right heights in a single pass through the original list.
+
+Storing this information is not free though and so the space complexity increases to O(3n) or O(n) but the time complexity
+is reduced to O(3n) or O(n).
